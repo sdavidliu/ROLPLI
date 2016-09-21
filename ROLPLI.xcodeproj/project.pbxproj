@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4332C67FC74CA02A3FEE9130 /* Pods_ROLPLITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE05ACD42CCE7C3986FDCF80 /* Pods_ROLPLITests.framework */; };
+		5AB92EAE80879568F4BEE205 /* Pods_ROLPLIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8845BE7C551B826DDF8158 /* Pods_ROLPLIUITests.framework */; };
 		915EE9871D0CCB6000D770BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915EE9861D0CCB6000D770BC /* AppDelegate.swift */; };
 		915EE9891D0CCB6000D770BC /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915EE9881D0CCB6000D770BC /* MasterViewController.swift */; };
 		915EE98B1D0CCB6000D770BC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915EE98A1D0CCB6000D770BC /* DetailViewController.swift */; };
@@ -15,6 +17,13 @@
 		915EE9931D0CCB6000D770BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 915EE9911D0CCB6000D770BC /* LaunchScreen.storyboard */; };
 		915EE99E1D0CCB6000D770BC /* ROLPLITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915EE99D1D0CCB6000D770BC /* ROLPLITests.swift */; };
 		915EE9A91D0CCB6000D770BC /* ROLPLIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915EE9A81D0CCB6000D770BC /* ROLPLIUITests.swift */; };
+		917F957F1D1A5A9E00F14456 /* rolplilogoround.png in Resources */ = {isa = PBXBuildFile; fileRef = 917F957E1D1A5A9E00F14456 /* rolplilogoround.png */; };
+		919F896B1D0F93ED00EB8E18 /* ClassDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919F896A1D0F93ED00EB8E18 /* ClassDetail.swift */; };
+		91D19AB61D0CD5A000D734F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91D19AB51D0CD5A000D734F5 /* GoogleService-Info.plist */; };
+		91D19AB71D0CD5A000D734F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91D19AB51D0CD5A000D734F5 /* GoogleService-Info.plist */; };
+		91D19AB81D0CD5A000D734F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91D19AB51D0CD5A000D734F5 /* GoogleService-Info.plist */; };
+		91E5CAAC1D2104A600446053 /* ClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E5CAAB1D2104A600446053 /* ClassViewController.swift */; };
+		CD709397C1201EAD31A7A46D /* Pods_ROLPLI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E284E3442EEE3E687876D34 /* Pods_ROLPLI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E284E3442EEE3E687876D34 /* Pods_ROLPLI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ROLPLI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D8845BE7C551B826DDF8158 /* Pods_ROLPLIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ROLPLIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D3757934E71AEE3F538E14 /* Pods-ROLPLITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROLPLITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ROLPLITests/Pods-ROLPLITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6AC4EEDFF1A0AF0325A81A4A /* Pods-ROLPLI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROLPLI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ROLPLI/Pods-ROLPLI.debug.xcconfig"; sourceTree = "<group>"; };
+		73332C90F862A407090888A1 /* Pods-ROLPLI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROLPLI.release.xcconfig"; path = "Pods/Target Support Files/Pods-ROLPLI/Pods-ROLPLI.release.xcconfig"; sourceTree = "<group>"; };
+		7704FE1201151906FC82B26B /* Pods-ROLPLITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROLPLITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ROLPLITests/Pods-ROLPLITests.release.xcconfig"; sourceTree = "<group>"; };
+		90022CBDCDBF85B67111385A /* Pods-ROLPLIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROLPLIUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ROLPLIUITests/Pods-ROLPLIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		915EE9831D0CCB6000D770BC /* ROLPLI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ROLPLI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		915EE9861D0CCB6000D770BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		915EE9881D0CCB6000D770BC /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +65,12 @@
 		915EE9A41D0CCB6000D770BC /* ROLPLIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ROLPLIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		915EE9A81D0CCB6000D770BC /* ROLPLIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROLPLIUITests.swift; sourceTree = "<group>"; };
 		915EE9AA1D0CCB6000D770BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		917F957E1D1A5A9E00F14456 /* rolplilogoround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rolplilogoround.png; sourceTree = "<group>"; };
+		919F896A1D0F93ED00EB8E18 /* ClassDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassDetail.swift; sourceTree = "<group>"; };
+		91D19AB51D0CD5A000D734F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		91E5CAAB1D2104A600446053 /* ClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassViewController.swift; sourceTree = "<group>"; };
+		CE05ACD42CCE7C3986FDCF80 /* Pods_ROLPLITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ROLPLITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1698761DEAFB72EBE3C893 /* Pods-ROLPLIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROLPLIUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ROLPLIUITests/Pods-ROLPLIUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD709397C1201EAD31A7A46D /* Pods_ROLPLI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4332C67FC74CA02A3FEE9130 /* Pods_ROLPLITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AB92EAE80879568F4BEE205 /* Pods_ROLPLIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +108,8 @@
 				915EE99C1D0CCB6000D770BC /* ROLPLITests */,
 				915EE9A71D0CCB6000D770BC /* ROLPLIUITests */,
 				915EE9841D0CCB6000D770BC /* Products */,
+				AC1A7FF465204C2B441053CF /* Pods */,
+				B47200861FE7FB5EBFC1245A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,9 +129,13 @@
 				915EE9861D0CCB6000D770BC /* AppDelegate.swift */,
 				915EE9881D0CCB6000D770BC /* MasterViewController.swift */,
 				915EE98A1D0CCB6000D770BC /* DetailViewController.swift */,
+				919F896A1D0F93ED00EB8E18 /* ClassDetail.swift */,
+				91E5CAAB1D2104A600446053 /* ClassViewController.swift */,
 				915EE98C1D0CCB6000D770BC /* Main.storyboard */,
 				915EE98F1D0CCB6000D770BC /* Assets.xcassets */,
 				915EE9911D0CCB6000D770BC /* LaunchScreen.storyboard */,
+				91D19AB51D0CD5A000D734F5 /* GoogleService-Info.plist */,
+				917F957E1D1A5A9E00F14456 /* rolplilogoround.png */,
 				915EE9941D0CCB6000D770BC /* Info.plist */,
 			);
 			path = ROLPLI;
@@ -128,6 +159,29 @@
 			path = ROLPLIUITests;
 			sourceTree = "<group>";
 		};
+		AC1A7FF465204C2B441053CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AC4EEDFF1A0AF0325A81A4A /* Pods-ROLPLI.debug.xcconfig */,
+				73332C90F862A407090888A1 /* Pods-ROLPLI.release.xcconfig */,
+				68D3757934E71AEE3F538E14 /* Pods-ROLPLITests.debug.xcconfig */,
+				7704FE1201151906FC82B26B /* Pods-ROLPLITests.release.xcconfig */,
+				90022CBDCDBF85B67111385A /* Pods-ROLPLIUITests.debug.xcconfig */,
+				FC1698761DEAFB72EBE3C893 /* Pods-ROLPLIUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B47200861FE7FB5EBFC1245A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E284E3442EEE3E687876D34 /* Pods_ROLPLI.framework */,
+				CE05ACD42CCE7C3986FDCF80 /* Pods_ROLPLITests.framework */,
+				2D8845BE7C551B826DDF8158 /* Pods_ROLPLIUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 915EE9AD1D0CCB6000D770BC /* Build configuration list for PBXNativeTarget "ROLPLI" */;
 			buildPhases = (
+				E200B0F19CCB435894C06C8D /* [CP] Check Pods Manifest.lock */,
 				915EE97F1D0CCB6000D770BC /* Sources */,
 				915EE9801D0CCB6000D770BC /* Frameworks */,
 				915EE9811D0CCB6000D770BC /* Resources */,
+				A9A44EE89ABB4E6AECCB66E2 /* [CP] Embed Pods Frameworks */,
+				2E6266BD2ECDE8D7448A489A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 915EE9B01D0CCB6000D770BC /* Build configuration list for PBXNativeTarget "ROLPLITests" */;
 			buildPhases = (
+				0E209F5FBDA110BE21B722E7 /* [CP] Check Pods Manifest.lock */,
 				915EE9951D0CCB6000D770BC /* Sources */,
 				915EE9961D0CCB6000D770BC /* Frameworks */,
 				915EE9971D0CCB6000D770BC /* Resources */,
+				3A49D6D7709F4F9A425A0404 /* [CP] Embed Pods Frameworks */,
+				EBA6E4BD37E746C7C97C35BA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +230,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 915EE9B31D0CCB6000D770BC /* Build configuration list for PBXNativeTarget "ROLPLIUITests" */;
 			buildPhases = (
+				8BA10CCA360A1CDBDDA193F9 /* [CP] Check Pods Manifest.lock */,
 				915EE9A01D0CCB6000D770BC /* Sources */,
 				915EE9A11D0CCB6000D770BC /* Frameworks */,
 				915EE9A21D0CCB6000D770BC /* Resources */,
+				D7F157A2842A50274E300608 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +258,7 @@
 				TargetAttributes = {
 					915EE9821D0CCB6000D770BC = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 68RB738V9E;
 					};
 					915EE9981D0CCB6000D770BC = {
 						CreatedOnToolsVersion = 7.2;
@@ -233,7 +296,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				915EE9931D0CCB6000D770BC /* LaunchScreen.storyboard in Resources */,
+				91D19AB61D0CD5A000D734F5 /* GoogleService-Info.plist in Resources */,
 				915EE9901D0CCB6000D770BC /* Assets.xcassets in Resources */,
+				917F957F1D1A5A9E00F14456 /* rolplilogoround.png in Resources */,
 				915EE98E1D0CCB6000D770BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91D19AB71D0CD5A000D734F5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +315,134 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91D19AB81D0CD5A000D734F5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E209F5FBDA110BE21B722E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2E6266BD2ECDE8D7448A489A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ROLPLI/Pods-ROLPLI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A49D6D7709F4F9A425A0404 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ROLPLITests/Pods-ROLPLITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BA10CCA360A1CDBDDA193F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A9A44EE89ABB4E6AECCB66E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ROLPLI/Pods-ROLPLI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7F157A2842A50274E300608 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ROLPLIUITests/Pods-ROLPLIUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E200B0F19CCB435894C06C8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EBA6E4BD37E746C7C97C35BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ROLPLITests/Pods-ROLPLITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		915EE97F1D0CCB6000D770BC /* Sources */ = {
@@ -261,6 +451,8 @@
 			files = (
 				915EE98B1D0CCB6000D770BC /* DetailViewController.swift in Sources */,
 				915EE9891D0CCB6000D770BC /* MasterViewController.swift in Sources */,
+				91E5CAAC1D2104A600446053 /* ClassViewController.swift in Sources */,
+				919F896B1D0F93ED00EB8E18 /* ClassDetail.swift in Sources */,
 				915EE9871D0CCB6000D770BC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,7 +544,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -391,7 +583,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -401,28 +593,41 @@
 		};
 		915EE9AE1D0CCB6000D770BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC4EEDFF1A0AF0325A81A4A /* Pods-ROLPLI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ROLPLI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Dave-Joe.ROLPLI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		915EE9AF1D0CCB6000D770BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73332C90F862A407090888A1 /* Pods-ROLPLI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ROLPLI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Dave-Joe.ROLPLI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		915EE9B11D0CCB6000D770BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68D3757934E71AEE3F538E14 /* Pods-ROLPLITests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ROLPLITests/Info.plist;
@@ -435,6 +640,7 @@
 		};
 		915EE9B21D0CCB6000D770BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7704FE1201151906FC82B26B /* Pods-ROLPLITests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ROLPLITests/Info.plist;
@@ -447,6 +653,7 @@
 		};
 		915EE9B41D0CCB6000D770BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90022CBDCDBF85B67111385A /* Pods-ROLPLIUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ROLPLIUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -459,6 +666,7 @@
 		};
 		915EE9B51D0CCB6000D770BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC1698761DEAFB72EBE3C893 /* Pods-ROLPLIUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ROLPLIUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -488,6 +696,7 @@
 				915EE9AF1D0CCB6000D770BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		915EE9B01D0CCB6000D770BC /* Build configuration list for PBXNativeTarget "ROLPLITests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +705,7 @@
 				915EE9B21D0CCB6000D770BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		915EE9B31D0CCB6000D770BC /* Build configuration list for PBXNativeTarget "ROLPLIUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +714,7 @@
 				915EE9B51D0CCB6000D770BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
